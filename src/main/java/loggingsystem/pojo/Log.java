@@ -19,6 +19,11 @@ public class Log implements Serializable {
         this.data = data;
     }
 
+    public Log(String data, Severity severity){
+        this.data = data;
+        this.severity = severity;
+    }
+
     public String getData() {
         return data;
     }
