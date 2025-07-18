@@ -1,0 +1,19 @@
+# Maven build directory
+/target/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# OS files
+.DS_Store
+
+# Logs
+*.log
+
+# VS Code
+.vscode/
+
+# Optional: ignore environment or secret config files
+*.env
