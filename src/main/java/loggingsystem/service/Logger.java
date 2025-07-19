@@ -98,7 +98,8 @@ public class Logger {
         collection.add(item);
     }
 
-    private void deleteLogs(){
+    public void deleteLogs(){
         //if timeout occurs delete few logs form the file
+        dataStore.deleteLog();
     }
 }
