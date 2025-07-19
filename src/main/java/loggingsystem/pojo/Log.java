@@ -8,6 +8,8 @@ import loggingsystem.enums.Severity;
 
 public class Log implements Serializable {
 
+    final static long serialVersionUID = 1234L;
+
     private String data;
     private String threadId;
     private String threadName;
